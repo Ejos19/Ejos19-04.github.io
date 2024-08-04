@@ -1,0 +1,679 @@
+body {
+  display: center; /*centrar imagen de telefono centrado*/
+  justify-content: center;
+  align-items: center;
+  min-height: 76vh;
+  /* background: url(NOKIA1616.jpg) no-repeat; */
+  background-size: 1110px;
+  background-position: center;
+}
+
+/* encabezado */
+h1 {
+  text-align: center;
+  color: black;
+}
+
+/* titulo dentro del tlf */
+h3 {
+  margin: 66px 5px;
+  position: relative;
+  top: -13px;
+  left: -2px;
+  font-family: system-ui;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: black;
+  border-radius: 25px 25px 0px 0px;
+  margin-top: 15px;
+  margin-bottom: 1px;
+}
+
+/* letras dentro del teclado */
+span {
+  font-size: 50%;
+}
+
+/* cuerpo del tlf */
+div#phone {
+  margin: 2% auto;
+  width: 217px;
+  height: 500px;
+  border: 0px solid #000;
+  border-radius: 47px 47px 73px 73px / 70px 70px 99px 99px;
+  background-color: rgb(75, 75, 75);
+}
+
+/* pantallas de tlf */
+div#screen {
+  margin: 2px 8px;
+  width: 180px;
+  height: 231px;
+  border: 12px solid transparent;
+  border-radius: 90px 90px 15px 15px;
+  margin-bottom: -14px;
+  background-color: ash;
+}
+
+/* pantalla */
+div#screen p {
+  margin: 11px 57px;
+  border-radius: 20px 20px 10px 10px;
+  background-color: black;
+  text-align: center;
+  width: 65px;
+  line-height: 19.01px;
+  height: 7px;
+  color: black;
+  font-weight: bolder;
+  letter-spacing: 12px;
+  padding: 0px;
+}
+
+div#d-output {
+  position: relative;
+  top: -15px;
+  left: 0px;
+  margin: 0px 2px;
+  width: 170px;
+  height: 217px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: black;
+  /* background-image: url(niki.gif); */
+  background-size: 400px 240px;
+}
+
+/* pantalla 2 */
+div#output {
+  position: relative;
+  margin: 0px 2px;
+  top: -212px;
+  left: 9px;
+  width: 151px;
+  height: 163px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  /* background-color: black; */
+  background-image: url(niki.gif);
+  background-size: 400px 240px;
+}
+
+/* parte de arriba del teclado */
+div#homekeys {
+  margin: 34px 24px;
+  width: 191px;
+  height: 60px;
+  border: 0px solid transparent;
+  border-radius: 30px;
+}
+
+/* posicion del teclado numeros  */
+div#keys {
+  margin: -40px 23px;
+  width: 174px;
+  height: 125px;
+  border: 3px solid transparent;
+  border-radius: 16px;
+}
+
+div#left {
+  position: relative;
+  top: 0px;
+  left: 1px;
+  float: left;
+  margin: -5px -6px;
+  width: 55px;
+  height: 52px;
+  border: 4px solid transparent;
+  border-radius: 15px;
+}
+
+div#mid {
+  float: left;
+  margin: 0px 5px;
+  width: 52px;
+  height: 41px;
+  border: 3px solid #000;
+  border-radius: 17px;
+}
+
+div#right {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  float: left;
+  margin: -1px 2px;
+  width: 66px;
+  height: 55px;
+  border: 0px solid transparent;
+  border-radius: 15px;
+}
+
+/* tamaño del teclado de llamada */
+div#left button,
+div#right button {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  margin-bottom: 0px;
+  width: 48px;
+  height: 24px;
+  color: rgba(225, 225, 225, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
+  /* border: 15px;*/
+}
+
+/* tamaño del teclado alfanumerico */
+div#keys button {
+  position: relative;
+  top: -3px;
+  left: -2px;
+  margin: 1px 0px;
+  margin-bottom: -3px;
+  width: 59px;
+  height: 35px;
+  color: rgba(225, 225, 225, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 110%;
+}
+
+/* posicion del teclado */
+div#keys div {
+  float: left;
+  margin-top: -8.4px; /*distancia entre teclado superior y teclado inferior */
+}
+
+/* distancia de la fila de botones desde 3 a 9*/
+div#c1 button,
+div#c2 button,
+div#c3 button {
+  margin-left: -4px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+/*distancia de filas botones numericos*/
+div#c2 button {
+  margin-left: -1px;
+  margin-right: 2.5px;
+}
+
+/* forma de boton en la esquina superior */
+div#c1 button#one {
+  border-top-left-radius: 2px;
+}
+/* forma de boton en la esquina inferior */
+div#c1 button#for {
+  border-bottom-left-radius: 70px;
+}
+
+/* forma de boton en la esquina superior */
+div#c3 button#thre {
+  border-top-right-radius: 2px;
+}
+
+/* forma de boton en la esquina inferior */
+div#c3 button#hash {
+  border-bottom-right-radius: 70px;
+}
+
+/* div#logo button {
+    margin-bottom: 0px;
+    width: 49px;
+    height: 24px;
+    color: rgba(225, 225, 225, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 15px;
+} */
+
+.samsung-button {
+  position: relative;
+  top: -156.8px;
+  left: 109.3px;
+  transform: translate(-50%, -51%);
+  width: 53px;
+  height: 41px;
+  background-color: #212121;
+  border: none;
+  border-radius: 13px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.samsung-button:hover {
+  background-color: #000000;
+}
+
+.container {
+  position: relative;
+  top: -599px;
+  left: -575px;
+}
+
+.fondo2 {
+  position: absolute;
+  top: 195px;
+  left: 595px;
+  width: 83px;
+  height: 62px;
+  background-image: url(msj.webp);
+  background-size: 72px 50px;
+  background-position: center center;
+  background-color: transparent;
+  border: transparent;
+}
+
+.fondo2 {
+  display: inline-block;
+  position: absolute;
+  text-decoration: none;
+}
+
+.fondo2 img {
+  vertical-align: middle;
+  border: none;
+  outline: none;
+}
+
+.fondo2:hover,
+.fondo2:focus {
+  opacity: 0.8;
+}
+
+.fondo2:active {
+  opacity: 0.6;
+}
+
+/* contactos */
+.contactos {
+  position: absolute;
+  top: 206px;
+  left: 653px;
+  width: 74px;
+  height: 39px;
+  background-image: url(contactos.png);
+  background-size: 59px 41px;
+  background-position: center center;
+  background-color: transparent;
+  border: transparent;
+}
+
+.contactos {
+  display: inline-block;
+  position: absolute;
+  text-decoration: none;
+}
+
+.contactos img {
+  vertical-align: middle;
+  border: none;
+  outline: none;
+}
+
+.contactos:hover,
+.contactos:focus {
+  opacity: 0.8;
+}
+
+.contactos:active {
+  opacity: 0.6;
+}
+
+/* llamada */
+.llamada {
+  position: absolute;
+  top: 208px;
+  left: 720px;
+  width: 32px;
+  height: 35px;
+  background-image: url(llamada.png);
+  background-size: 31px 33px;
+  background-position: center center;
+  background-color: transparent;
+  border: transparent;
+}
+
+.llamada {
+  display: inline-block;
+  position: absolute;
+  text-decoration: none;
+}
+
+.llamada img {
+  vertical-align: middle;
+  border: none;
+  outline: none;
+}
+
+.llamada:hover,
+.llamada:focus {
+  opacity: 0.8;
+}
+
+.llamada:active {
+  opacity: 0.6;
+}
+
+/* config */
+.config {
+  position: absolute;
+  top: 255px;
+  left: 618px;
+  width: 38px;
+  height: 39px;
+  background-image: url(config.png);
+  background-size: 40px 38px;
+  background-position: center center;
+  background-color: transparent;
+  border: transparent;
+}
+
+.config {
+  display: inline-block;
+  position: absolute;
+  text-decoration: none;
+}
+
+.config img {
+  vertical-align: middle;
+  border: none;
+  outline: none;
+}
+
+.config:hover,
+.config:focus {
+  opacity: 0.8;
+}
+
+.config:active {
+  opacity: 0.6;
+}
+
+/* google */
+.google {
+  position: absolute;
+  top: 253px;
+  left: 671px;
+  width: 38px;
+  height: 39px;
+  background-image: url(google.png);
+  background-size: 40px 38px;
+  background-position: center center;
+  background-color: transparent;
+  border: transparent;
+}
+
+.google {
+  display: inline-block;
+  position: absolute;
+  text-decoration: none;
+}
+
+.google img {
+  vertical-align: middle;
+  border: none;
+  outline: none;
+}
+
+.google:hover,
+.google:focus {
+  opacity: 0.8;
+}
+
+.google:active {
+  opacity: 0.6;
+}
+
+/* reloj */
+.reloj {
+  position: absolute;
+  top: 252px;
+  left: 717px;
+  width: 38px;
+  height: 39px;
+  background-image: url(reloj.png);
+  background-size: 40px 38px;
+  background-position: center center;
+  background-color: transparent;
+  border: transparent;
+}
+
+.reloj {
+  display: inline-block;
+  position: absolute;
+  text-decoration: none;
+}
+
+.reloj img {
+  vertical-align: middle;
+  border: none;
+  outline: none;
+}
+
+.reloj:hover,
+.reloj:focus {
+  opacity: 0.8;
+}
+
+.reloj:active {
+  opacity: 0.6;
+}
+
+/* radio */
+.radio {
+  position: absolute;
+  top: 299px;
+  left: 617px;
+  width: 38px;
+  height: 39px;
+  background-image: url(radio.png);
+  background-size: 40px 38px;
+  background-position: center center;
+  background-color: transparent;
+  border: transparent;
+}
+
+.radio {
+  display: inline-block;
+  position: absolute;
+  text-decoration: none;
+}
+
+.radio img {
+  vertical-align: middle;
+  border: none;
+  outline: none;
+}
+
+.radio:hover,
+.radio:focus {
+  opacity: 0.8;
+}
+
+.radio:active {
+  opacity: 0.6;
+}
+
+/* doc */
+.doc {
+  position: absolute;
+  top: 304px;
+  left: 672px;
+  width: 38px;
+  height: 31px;
+  background-image: url(doc.png);
+  background-size: 39px 31px;
+  background-position: center center;
+  background-color: transparent;
+  border: transparent;
+}
+
+.doc {
+  display: inline-block;
+  position: absolute;
+  text-decoration: none;
+}
+
+.doc img {
+  vertical-align: middle;
+  border: none;
+  outline: none;
+}
+
+.doc:hover,
+.doc:focus {
+  opacity: 0.8;
+}
+
+.doc:active {
+  opacity: 0.6;
+}
+
+/* juegos */
+.juegos {
+  position: absolute;
+  top: 302px;
+  left: 719px;
+  width: 38px;
+  height: 39px;
+  background-image: url(juegos.png);
+  background-size: 38px 38px;
+  background-position: center center;
+  background-color: transparent;
+  border: transparent;
+}
+
+.juegos {
+  display: inline-block;
+  position: absolute;
+  text-decoration: none;
+}
+
+.juegos img {
+  vertical-align: middle;
+  border: none;
+  outline: none;
+}
+
+.juegos:hover,
+.juegos:focus {
+  opacity: 0.8;
+}
+
+.juegos:active {
+  opacity: 0.6;
+}
+
+/* senal */
+.senal {
+  position: absolute;
+  top: 179px;
+  left: 605px;
+  width: 27px;
+  height: 21px;
+  background-image: url(senal.png);
+  background-size: 27px 20px;
+  background-position: center center;
+  background-color: transparent;
+  border: transparent;
+}
+
+.senal {
+  display: inline-block;
+  position: absolute;
+  text-decoration: none;
+}
+
+.senal img {
+  vertical-align: middle;
+  border: none;
+  outline: none;
+}
+
+.senal:hover,
+.senal:focus {
+  opacity: 0.8;
+}
+
+.senal:active {
+  opacity: 0.6;
+}
+
+/* bateria */
+.bateria {
+  position: absolute;
+  top: 182px;
+  left: 730px;
+  width: 27px;
+  height: 21px;
+  background-image: url(bateria.webp);
+  background-size: 27px 20px;
+  background-position: center center;
+  background-color: transparent;
+  border: transparent;
+}
+
+.bateria {
+  display: inline-block;
+  position: absolute;
+  text-decoration: none;
+}
+
+.bateria img {
+  vertical-align: middle;
+  border: none;
+  outline: none;
+}
+
+.bateria:hover,
+.bateria:focus {
+  opacity: 0.8;
+}
+
+.bateria:active {
+  opacity: 0.6;
+}
+
+/* pie */
+.pie {
+  position: absolute;
+  top: 343px;
+  left: 606px;
+  width: 153px;
+  height: 28px;
+  background-image: url(pie.png);
+  background-size: 193px 49px;
+  background-position: center center;
+  background-color: transparent;
+  border: transparent;
+}
+
+.pie {
+  display: inline-block;
+  position: absolute;
+  text-decoration: none;
+}
+
+.pie img {
+  vertical-align: middle;
+  border: none;
+  outline: none;
+}
+
+.pie:hover,
+.pie:focus {
+  opacity: 0.8;
+}
+
+.pie:active {
+  opacity: 0.6;
+}
+
+#logo {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  justify-content: center;
+}
